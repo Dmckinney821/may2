@@ -307,3 +307,20 @@ Out[37]:
  {'brand': 'lucky', 'size': 'wider than i want to admit'}]
 
 In [38]: 
+
+
+from shopping_cart import Cart
+from prodcut import Product
+
+cart = Cart()
+answer = 'yes'
+while answer == 'yes':
+    name = input('whacha want', )
+    price = int(input('Combien', )
+    product = Product(price name)
+    cart.add(product)
+    answer = input('want another?, )
+    
+ print(cart.description())
+ print(cart.total())
+ 
